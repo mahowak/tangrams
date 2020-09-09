@@ -105,7 +105,8 @@ var startGame = function(game, player) {
   console.log("starting game" + game.id);
   // Establish write streams
   var startTime = utils.getLongFormTime();
-  var dataFileName = startTime + "_" + game.id;
+
+  var dataFileName = startTime + "_" + game.players[0].id + "_" + game.players[1].id;
   utils.establishStream(game, "message", dataFileName,
 			"gameid,time,roundNum,occurrenceNum,sender,intendedName," +
 			"timeElapsed,contents\n");
