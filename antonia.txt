@@ -1,0 +1,29 @@
+gameid,time,roundNum,occurrenceNum,sender,intendedName,timeElapsed,contents
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695081366,1,1,matcher,B,633,hello
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695090592,1,1,director,B,1975,hi
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695095877,1,1,matcher,B,2453,which tangram should I pick?
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695102167,1,1,director,B,915,a hard one
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695122847,1,1,matcher,B,4553,you should be able to see which tangram I need to pick
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695147238,1,1,director,B,1439,the top left? 
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695151505,1,1,matcher,B,2276,they are in random order
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695159872,1,1,matcher,B,1837,I have a different order
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695160348,1,1,director,B,412,oh
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695166841,1,1,director,B,4648,i see. so i'm supposed to describe to you what it looks like
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695170385,1,1,matcher,B,819,yep
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695193185,1,1,director,B,17663,it sort of looks like a dog looking up and to the left
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695209007,1,1,director,B,12577,with one ear a triangle, the other ear a tilted square
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695219267,2,1,matcher,C,1216,we did it!
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695238319,2,1,director,C,1384,yes we did
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695246114,2,1,director,C,7274,pick the celebratory tangram to celebrate
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695280205,3,1,director,J,5780,this flat-shouldered man is pointing east
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695329617,4,1,director,D,21887,this is a man who would like you to donate something into his upturned hat. or a woman~~~ i don't judge
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695397202,5,1,director,L,27150,this supplicant is in the middle of kneeling down. looks painful
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695445608,6,1,director,E,18481,sad bunny sitting against a wall
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695489663,7,1,director,G,1699,ooh ok
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695521242,7,1,director,G,20306,hard one. dramatic geisha gestures to the right with two splayed fans 
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695585806,8,1,director,K,18590,remaining supplicant is wearing a large skirt that got caught on the wall behind her as she tried to kneel down. why so many supplicants
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695713887,9,1,director,I,10605,simone biles on the balance beam
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695770830,10,1,director,A,9210,sad hobo bear from the ministry of silly walks
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599695992532,11,1,director,F,15856,this is me butt-scooting across the school gym on one of those wheelyboards that used to smash kids' fingers
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599696086467,12,1,director,H,1847,this one's boring 
+8870-ed8a7707-4d41-4002-a3e9-10f6d68f0663,1599696101216,12,1,director,H,8487,a calm buddha style boring
