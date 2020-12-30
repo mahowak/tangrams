@@ -71,15 +71,18 @@ io.on('connection', function (client) {
   var hs = client.request;
   var query = require('url').parse(hs.headers.referer, true).query;
   var id;
-    if(query.gameId) {
+  var gameid;
+  if(query.gameId) {
       gameid = query.gameId; 
-    } else {
-      id = utils.UUID();
-    }
-    if(valid_id(id)) {
-	initialize(query, client, id, gameId);
-    }
-});
+  } else {
+      gameid = utils.UUID();
+  }
+  id = utils.UUID();
+  if(valid_id(id)) {
+	  initialize(query, client, id, gameId);
+  }
+}
+);
 
 var valid_id = function(id) {
   return (id.length <= 30 && id.length >= 2) || id.length == 41;
