@@ -79,7 +79,7 @@ io.on('connection', function (client) {
   }
   id = utils.UUID();
   if(valid_id(id)) {
-	  initialize(query, client, id, gameId);
+	  initialize(query, client, id, gameid);
   }
 }
 );
