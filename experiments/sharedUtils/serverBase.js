@@ -21,10 +21,11 @@ module.exports = function(expName) {
 
   // This is the important function that pairs people up into 'rooms'
   // all independent of one another.
-  gameServer.findGame = function(player) {
+    gameServer.findGame = function(player, gameId) {
     this.log('looking for a game. We have : ' + this.game_count);
     var joined_a_game = false;
     for (var gameid in this.games) {
+	if(gameid == gameId) {	    
       var game = this.games[gameid];
       if(game.player_count < game.players_threshold) {
 	// End search
@@ -47,23 +48,24 @@ module.exports = function(expName) {
 	});
 	
 	// Start game
-	this.startGame(game);
+	  this.startGame(game);
       }
+	}
     }
 
     // If you couldn't find a game to join, create a new one
     if(!joined_a_game) {
-      this.createGame(player);
+	this.createGame(player, gameId);
     }
   };
 
   // Will run when first player connects
-  gameServer.createGame = function(player) {
+    gameServer.createGame = function(player, gameId) {
     //Create a new game instance
     var options = {
       expName: expName,
       server: true,
-      id : utils.UUID(),
+      id : gameId,
       player_instances: [{id: player.userid, player: player}],
       player_count: 1
     };
